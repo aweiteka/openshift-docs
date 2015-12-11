@@ -45,3 +45,13 @@ openshift-dedicated:
     master:
       name: '3.1 Preview'
       dir: dedicated/3.1
+atomic-registry:
+  name: Atomic Registry
+  author: OpenShift Documentation Project <dev@lists.openshift.redhat.com>
+  site: community
+  site_name: Atomic Registry Documentation
+  site_url: https://docs.projectatomic.io/
+  branches:
+    master:
+      name: 'Latest'
+      dir: latest
