@@ -67,9 +67,10 @@ Topics:
     Topics:
       - Name: Web Console
         File: developers_console
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
   - Name: Administrators
     File: administrators
-    Distros: openshift-origin,openshift-enterprise
+    Distros: openshift-origin,openshift-enterprise,atomic-registry
 
 ---
 Name: Architecture
@@ -82,6 +83,7 @@ Topics:
     Topics:
       - Name: Kubernetes Infrastructure
         File: kubernetes_infrastructure
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Image Registry
         File: image_registry
       - Name: Web Console
@@ -95,38 +97,49 @@ Topics:
         File: containers_and_images
       - Name: Pods and Services
         File: pods_and_services
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Projects and Users
         File: projects_and_users
       - Name: Builds and Image Streams
         File: builds_and_image_streams
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Deployments
         File: deployments
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Routes
         File: routes
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Templates
         File: templates
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
 
   - Name: Additional Concepts
     Dir: additional_concepts
     Topics:
       - Name: Networking
         File: networking
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: OpenShift SDN
         File: sdn
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Authentication
         File: authentication
       - Name: Authorization
         File: authorization
       - Name: Persistent Storage
         File: storage
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Remote Commands
         File: remote_commands
       - Name: Port Forwarding
         File: port_forwarding
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Throttling
         File: throttling
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Source Control Management
         File: scm
+        Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
       - Name: Other API Objects
         File: other_api_objects
 
@@ -265,6 +278,7 @@ Topics:
 ---
 Name: Developer Guide
 Dir: dev_guide
+Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
 Topics:
   - Name: Overview
     File: index
@@ -331,6 +345,7 @@ Topics:
 ---
 Name: Creating Images
 Dir: creating_images
+Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
 Topics:
   - Name: Overview
     File: index
@@ -348,6 +363,7 @@ Topics:
 ---
 Name: Using Images
 Dir: using_images
+Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
 Topics:
   - Name: Overview
     File: index
@@ -411,7 +427,9 @@ Dir: rest_api
 Topics:
   - Name: Overview
     File: index
+    Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
   - Name: OpenShift v1
     File: openshift_v1
   - Name: Kubernetes v1
     File: kubernetes_v1
+    Distros: openshift-origin,openshift-enterprise,openshift-online,openshift-dedicated
